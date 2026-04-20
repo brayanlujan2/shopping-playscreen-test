@@ -11,7 +11,7 @@ import org.junit.platform.suite.api.Suite;
 @SelectClasspathResource("features")
 @ConfigurationParameter(
         key = Constants.GLUE_PROPERTY_NAME,
-        value = "edu.pe.cibertec.shopping.steps"
+        value = "edu.pe.cibertec.shooping.steps"
 )
 public class CucumberTestSuite {
 }
